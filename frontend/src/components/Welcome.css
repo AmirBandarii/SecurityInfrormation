@@ -1,0 +1,18 @@
+@import url('https://fonts.googleapis.com/css2?family=Butcherman&family=Mr+Bedfort&family=Roboto:wght@300&family=Sedgwick+Ave+Display&display=swap');
+img {
+object-fit: cover;
+width: 100%;
+height: 100%;
+position: fixed;
+z-index: -1;
+}
+.fontEdit{
+    font-family: 'Sedgwick Ave Display', cursive;
+    font-size:50px ;
+    color:#1c9c1e;
+}
+.changeText{
+color:rgba(115,154,187,255);
+grid:20px;
+font-size: 30px;
+}

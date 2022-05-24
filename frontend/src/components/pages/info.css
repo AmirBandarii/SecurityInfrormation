@@ -1,0 +1,38 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&family=Roboto:wght@500&display=swap');
+.background {
+    background-color: rgb(130,175,213);
+}
+article {
+    display: grid;
+    grid-template-columns:1fr 0.5in [start] minmax(0, 7.5in) [end] 0.5in 1fr ;
+    align-items: center;
+height: 100vh;
+   padding : 0.5in 0;
+   
+}
+article * {grid-column: start/end;}
+
+@media (max-width: 8.5in){
+  artical{  grid-template-columns:1fr 5% [start] minmax(0, 7.5in) [end] 5% 1fr ; }
+
+}
+
+.debug-center {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #fef588;
+    padding-bottom: 20px;
+    padding-top:20px;
+    font-size: 38px;
+}
+.TextColor {
+    background:#cef3ee;
+    padding: 10px;
+    display: flex;
+    margin-top: 0px;
+    text-align: justify;
+    font-size: 18px;
+    color:black;
+   
+}

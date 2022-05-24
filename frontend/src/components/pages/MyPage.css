@@ -1,0 +1,35 @@
+.AppEdit{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  box-sizing: border-box;
+  padding-left: 80px;
+  width: 40%;
+}
+
+
+
+
+
+.EditProfile {
+    color:azure;
+    font-size: 50px;
+    font-family: 'Bangers', cursive;
+   
+}
+.FormStyle {
+    color: azure;
+    
+}
+.IPedit{
+    color: azure;
+  
+}
+.mapEdit{
+    color: red;
+
+}
+.left{
+    align-items: left;
+    align-content: left;
+}

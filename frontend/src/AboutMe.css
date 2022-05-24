@@ -1,0 +1,51 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&family=Roboto:wght@500&display=swap');
+* {
+margin: 0;
+padding: 0;
+box-sizing: border-box;
+}
+body {
+    background-color: rgba(5,19,53,255);
+}
+.container {
+margin: 0 auto;
+padding: 0 3rem;
+margin-top:1rem;
+text-align: center;
+background-color:#b4b8c2;
+
+}
+.Edit-img {
+    width:300px;
+    height:300px;
+    margin-top: 18rem;
+    margin-left:10 rem;
+    
+}
+h1{
+    font-family: 'Montserrat', sans-serif;
+    font-family: 'Roboto', sans-serif;
+    font-size:40px ;
+    color:black;
+  
+}
+h2{
+    font-family: 'Montserrat', sans-serif;
+    font-family: 'Roboto', sans-serif;
+    font-size:30px ;
+    color:black;
+}
+p{
+    font-size: 20px;
+    line-height: 35px;
+    font-family: 'Roboto', sans-serif;
+    
+}
+label {
+    text-align: left;
+    font-size: 20px;
+    line-height: 35px;
+    font-family: 'Roboto', sans-serif;
+}
+ 

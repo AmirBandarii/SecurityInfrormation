@@ -1,0 +1,152 @@
+.navbarItems {
+    background: #0a2c0a;
+    height: 75px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size:1.1rem ;
+
+}
+
+.navbar-logo {
+    color: #fff;
+    font-size: 20px;
+    position: fixed;
+}
+
+.fa-lock {
+    margin-left: 0.5rem;
+    font-size: 1.6rem;
+}
+.nav-menu {
+display: grid;
+grid-template-columns: repeat(5, auto);
+grid-gap: 35px;
+list-style: none;
+text-align: center;
+width:90vw;
+justify-content: end;
+font-size: 22px;
+align-items: center;
+}
+.nav-links {
+color : #fff;
+text-decoration: none;
+padding: 0.6rem 1rem;
+}
+
+.nav-links:hover {
+    background-color: #83c39c;
+    border-radius: 4px;
+    transition: all 0.21s ease-out;
+}
+.fa-bars {
+    color:#fff;
+    font-size: 30px;
+}
+.fa-xmark {
+    color:#fff;
+    font-size: 30px;
+}
+.nav-links-mobile {
+    display: none;
+    color: #fff;
+}
+.menu-icon {
+    display: none;
+}
+@media screen and (max-width : 960px){
+    .navbarItems {
+        position: relative;
+    }
+
+    .nav-menu {
+        display: flex;
+        flex-direction: column;
+        width: 100%; 
+        height: 630px;
+        position: absolute;
+        top: 75px;
+        left: -100%;
+        opacity: -1;
+        transition: all 0.4s ease;
+        align-items: center;
+    }
+
+    .nav-menu.active {
+        background:#83c39c;
+        left:0;
+        opacity: 1;
+        transition: all 0.s ease;
+        z-index: 1;
+    }
+    .nav-links{
+        text-align: center ;
+        padding: 2rem;
+        width: 100%;
+        display: table;
+    }
+
+    .nav-links:hover {
+        background-color:#286f35 ;
+        border-radius: 0;
+    }
+.navbar-logo {
+position: absolute;
+top:0;
+left: 0;
+transform: translate(25%, 50% );
+
+}
+.menu-icon {
+display: block ;
+position: absolute;
+top:0;
+right:0;
+transform: translate(-100%, 60%);
+font-size: 1.8rem;
+cursor: pointer;
+}
+.fa-xmark {
+    color: #fff;
+    font-size: 2rem;
+}
+.nav-links-mobile {
+    display: block;
+    text-align: center ;
+    padding: 1rem;
+    margin: 0.25rem auto;
+    border-radius: 4px;
+    width: 60%;
+    background: #286f35;
+    text-decoration: none;
+    color: #fff;
+    font-size: 1rem;
+}
+.nav-links-mobile {
+    background: #fff;
+    color: #286f35;
+    transition: 250ms;
+}
+Button { 
+    display: none;
+}
+.EditTopics {
+    display: block ;
+    position: absolute;
+    top:0;
+    right:0;
+    transform: translate(-100%, 60%);
+    font-size: 1.8rem;
+    cursor: pointer;
+
+
+}
+.NavDropcolor {
+background-color:#fff;
+}
+.dropdown-toggle::after {
+  display: none;
+    
+}
+}
